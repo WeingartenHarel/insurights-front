@@ -1,0 +1,43 @@
+<script>
+var filterTerm =   {
+        "filterBy":"total",
+        
+        "value":14.8
+  };
+var array =[
+    {
+        "id": 5,
+        "customer": "John Bird",
+        "address": "Den USA",
+         "order": "TB4C",
+        "tax": 4.0,
+        "total": 14.8
+      },
+      {
+        "id": 5,
+        "customer": "John Bird",
+        "address": "Den USA",
+         "order": "TB4C",
+        "tax": 4.0,
+        "total": 14.8
+      }
+];
+
+function filterBY(filterTerm, array){
+    console.log(filterTerm,array)
+    result = array.filter(car =>{ 
+        if (filterTerm.value === "total"{
+            car.total < filterTerm.total
+        })
+        //return car.id.includes(filterTerm.id) 
+         //car.customer.includes(filterTerm.customer) ||
+         //car.address.includes(filterTerm.address) ||
+         //car.order.address.includes(filterTerm.order)  ||
+         //car.tax.includes(filterTerm.tax)  ||
+        
+    
+        });
+    return result
+}
+console.log("test =", filterBY(filterTerm, array))
+</script>

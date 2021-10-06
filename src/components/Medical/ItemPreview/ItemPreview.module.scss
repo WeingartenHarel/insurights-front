@@ -1,0 +1,81 @@
+    .itemContainer{
+        display: flex;
+        justify-content: space-between;
+    
+        .btnDetails{
+                a{
+                display: block;
+                box-sizing: border-box;
+                font-size: 2em;
+                background: #aeecb8;
+                padding: 1% 1%;
+                gap: 10px;
+                border-radius: 20px;
+                flex-direction: column;
+                min-width: 300px;
+                // display: flex;
+                // flex-direction: column;
+                /* min-height: 120px; */
+                border: 1px solid #949494;
+                text-decoration: none;
+        
+                
+            }
+            &:hover{
+                // background: #80fcd3;
+                color: rgb(19, 18, 18);
+            }
+            a:hover{
+                background: #caecae;
+            }
+    
+        }
+        .btn{
+            font-size: 1.2em;
+            background: #1a73e8;
+            padding: 0px 5px;
+            color: #fff;
+            padding: 5px 12px;
+            border: 1px solid #fff;
+            border-radius: 10px;
+            margin:8px 0px;
+          
+            a , a:visited{
+                color: #fff;
+            }
+          
+            &:hover{
+                background: #80fcd3;
+                color: rgb(19, 18, 18);
+            }
+            
+          }
+        .actions{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .checkBox{
+                width: 40px;
+                height: 40px;
+                display: inline-block;
+            }
+            .btnUpdate{
+                font-size: 1.2em;
+                background: #1a73e8;
+                color: #fff;
+                padding: 8px 28px;
+                border: 1px solid #fff;
+                border-radius: 10px;
+                margin:8px 0px;
+                &:hover{
+                    background: #80fcd3;
+                    color: rgb(19, 18, 18);
+                }
+            }
+        }
+        
+    }
+// .categoryContainer:hover{
+
+    
+// }

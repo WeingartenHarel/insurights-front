@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Plaster&display=swap');
+
+.btnHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #aadaff;
+    &:hover{
+        background: #80fcd3;
+        color: rgb(19, 18, 18);
+    }
+
+}
+.appHeader{
+    display: flex;
+    font-size: 3em;
+    margin: 0 0 30px 0;
+    font-family: 'Plaster', cursive;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon{
+width: 100px;
+    position: relative;
+    height: auto;
+    display: inline-block;
+    color: aquamarine;
+}

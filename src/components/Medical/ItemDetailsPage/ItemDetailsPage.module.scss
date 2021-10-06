@@ -1,0 +1,68 @@
+.ItemDetailsPage {}
+
+.Itemheadline{
+    color: #7fffd4;
+    font-size: 1.6em;
+}
+.ItemheadlineH5{
+    color: #7fffd4;
+    font-size: 1.2em;
+}
+.MapContainer{
+max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.icon{
+    max-width: 40px;
+    height: auto;
+    color: aquamarine;
+}
+.categoryList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+    gap: 20px;
+}
+
+.locationContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    
+}
+
+.locationText{
+    font-size: 1.6em;
+    background: #1a73e8;
+    padding: 0px 5px;
+    color: #fff;
+}
+
+.btnEdit ,.btnHome { 
+    
+    font-size: 1.2em;
+    background: #1a73e8;
+    padding: 0px 5px;
+    color: #fff;
+    padding: 1px 12px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin:8px 0px;
+    a{
+
+    }
+    a:visited{
+        color: #fff;
+    }
+    &:hover{
+        background: #80fcd3;
+        color: rgb(19, 18, 18);
+    }
+}
